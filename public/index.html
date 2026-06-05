@@ -597,8 +597,8 @@
         <p><strong style="color:var(--blue-dark)">eMarket Insights</strong><br />Global fieldwork, survey programming, analytics, and dashboarding.<br /><span class="js-email-text" data-user="info" data-domain="emarketinsights.in" aria-label="Email address"></span></p>
       </div>
       <div class="footer-actions">
-        <a class="footer-link" href="https://www.genspark.ai/api/files/s/dB6jlKTH" data-open-url="https://www.genspark.ai/api/files/s/dB6jlKTH" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-        <a class="footer-link" href="https://www.genspark.ai/api/files/s/hdFMUGs2" data-open-url="https://www.genspark.ai/api/files/s/hdFMUGs2" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a>
+        <a class="footer-link" href="Privacy-Policy-final.html">Privacy Policy</a>
+        <a class="footer-link" href="Terms-and-Conditions-final.html">Terms &amp; Conditions</a>
       </div>
     </div>
   </footer>
@@ -638,13 +638,6 @@
     document.querySelectorAll('.js-email-text').forEach(el => {
       const email = buildEmail(el.dataset.user, el.dataset.domain);
       el.textContent = email;
-    });
-
-    document.querySelectorAll('.footer-link[data-open-url]').forEach(el => {
-      el.addEventListener('click', (e) => {
-        e.preventDefault();
-        window.open(el.dataset.openUrl, '_blank', 'noopener,noreferrer');
-      });
     });
   </script>
 
