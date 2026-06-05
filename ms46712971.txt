@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
-  "Domain": "emarketinsights.in",
-  "Id": "6d7320cf-b335-4723-9c15-2d15aed0027e"
-}
